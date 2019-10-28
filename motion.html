@@ -1,0 +1,10 @@
+---
+title: "MOTION"
+layout: default
+permalink: /motion.html
+---
+<div class="tile is-ancestor">
+    {% for post in site.categories['motion'] %}
+    {% include post_thumb.html %}
+    {% endfor %}
+</div>

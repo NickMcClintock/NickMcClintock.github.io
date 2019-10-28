@@ -1,0 +1,283 @@
+html, body, #app {
+  height: 100%;
+ /*this one for headers: font-family: 'Notable', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  background: #f9f9f9
+}
+::selection {
+  background: #FEC502; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FEC502; /* Gecko Browsers */
+}
+.section{
+ padding-top: 20px;
+ padding-bottom: 12px !important;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/***************/
+/* MENU STYLES */
+/***************/
+.sidebar_wrapper{
+  position: fixed;
+  height: 100%;
+  color: #f9f9f9;
+}
+.sidebar_title a{
+  color: inherit;
+}
+.sidebar_nav {
+  color: #f9f9f9;
+  position: relative;
+  float:left;
+  height: 100%;
+  max-width: 250px;
+  /* background-image: linear-gradient(to bottom right, #DA5323, #A63015); */
+  background: #292C34;
+
+  padding: 8px;
+}
+.nav_links{
+  margin-top: 25px;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+.nav_links .menu-item{
+  text-align: center;
+}
+.sidebar_nav_footer{
+  width: 200px;
+  position: absolute;
+  bottom: 16px;
+}
+.sidebar_nav_footer a{
+  color: inherit;
+  padding: 0 9px 0 9px;
+}
+.sidebar_nav_footer a:hover{
+  color: #292C34;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.mobile_nav {
+  position: fixed;
+  width: 100%;
+  background: #292C34;
+  display: block;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.navbar-item {
+  text-transform: uppercase;
+}
+
+
+/* PAGE SPECIFIC COLOR CONTROLS */
+
+.menu,
+.menu-list,
+.nav_links,
+.menu-item a {
+  color: inherit;
+}
+
+.dark_text{
+  color: #292C34 !important;
+}
+.dark_text a{
+  color: #292C34 !important;
+}
+.dark_text a:hover{
+  color: #292C34 !important;
+}
+.sidebar_title a:hover{
+  color: inherit !important;
+}
+
+/********************************/
+/* RESPONSIVE CONDITIONAL STUFF */
+/********************************/
+@media only screen and (max-width:768px){
+  .main_content {padding-top: 55px;}
+  .responsive_tile_width {
+    flex:none;
+    width:100%;
+  }
+  /* .post_thumb::before{
+    content: '';
+    position: absolute;
+    border-radius: 5px;
+    width:100%;
+    height:33.33%;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+  } */
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .main_content {padding-top: 55px;}
+  .responsive_tile_width {
+    flex:none;
+    width:50%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .main_content {padding-left: 215px;}
+  .responsive_tile_width {
+    flex:none;
+    width:33.33%;
+  }
+}
+/*********************************/
+/* POST THUMBNAIL RELATED STYLES */
+/*********************************/
+.tile {
+  flex-wrap: wrap;
+}
+.post_thumb {
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:75%;
+}
+.post_thumb:hover .post_thumb_overlay{
+    opacity: 1;
+}
+.post_thumb_overlay{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 33.33%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+.post_thumb_overlay .left{
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+.post_thumb_overlay .right{
+    width: 40%;
+    display: block;
+    z-index: 2;
+    float: right;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    text-align: right;
+}
+.post_thumb_categories{
+  font-family: 'Raleway', sans-serif;
+}
+.post_thumb_title{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+.post_thumb_title:hover{
+  color: white;
+}
+.post_thumb_link{
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*******************************/
+/* INDIVIDUAL Project PAGE STYLES */
+/*******************************/
+.project_section{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+.project_header{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  /* background-color: #009933; */
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.project_header .title{
+  margin-bottom: 5px;
+}
+.project_header .date{
+  margin-bottom: 5px;
+  color: #939393;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.project_text{
+  display: block;
+  max-width: 860px;
+  padding-top: 50px;
+  margin: auto;
+}
+.project_embed{
+  max-width: 860px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.project_embed iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.project_img_gallery{
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project_fancy_gallery{
+  padding: 50px;
+  margin-top: 50px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+width: 100vw;
+position: relative;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
+  z-index: -1;
+}
+.project_end{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: thick;
+  border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+---
+title: "WEB"
+layout: default
+permalink: /web.html
+---
+<div class="tile is-ancestor">
+    {% for post in site.categories['web'] %}
+    {% include post_thumb.html %}
+    {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <section class="project_section">
+      <div class="main_content"><!-- responsive padding fix :) -->
+        <div class="project_header">
+          <h1 class="title is-size-3">{{ page.title }}</h1>
+          <div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
+          <!-- {{ page.title }} -->
+              {% if post %}
+                {% assign categories = post.categories %}
+              {% else %}
+                {% assign categories = page.categories %}
+              {% endif %}
+              {% for post-category in categories %}
+              <a href="{{site.baseurl}}/{{post-category|slugize}}.html" class="button is-small is-black is-outlined is-rounded">{{post-category}}</a>
+              {% unless forloop.last %}{% endunless %}
+              {% endfor %}
+        </div>
+        <hr>
+        {{ content }}
+      </div>
+    </section>
+  </body>
+</html>

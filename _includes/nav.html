@@ -1,0 +1,67 @@
+<!-- desktop sidebar logo + menu -->
+<div class="sidebar_wrapper">
+  <div class="sidebar_nav is-hidden-touch {{page.menu-color}}" style="background:{{page.color}} !important;">
+<!-- clr -->    <div class=" sidebar_title">
+                  <a href="/"><img src="{{site.baseurl}}/assets/img/nmlogo{{page.menu-color}}.png" style="max-width: 200px;"></a>
+                  <h1 class="is-size-4" style="font-family: 'Raleway', sans-serif; display: block; text-align: center;"><a href="/">Nick McClintock</a></h1>
+                </div>
+
+     <div class="menu">
+      <ul class="menu-list nav_links">
+        <li class="menu-item"><a class=""href="/design.html">Design</a></li>
+        <li class="menu-item"><a class=""href="/motion.html">motion</a></li>
+        <li class="menu-item"><a class=""href="/web.html">web</a></li>
+        <li class="menu-item"><a class=""href="/drawings.html">Drawings</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar_nav_footer content has-text-centered">
+        <a href="contact.html">CONTACT</a>&nbsp;\&nbsp;<a href="about.html">ABOUT</a>
+        <div class="level" style="margin-top: 25px;">
+          <div class="level-item has-text-centered"><a href="https://www.instagram.com/micknicklintock"><i class="fab fa-instagram"></i></a></div>
+          <div class="level-item has-text-centered"><a href="https://www.instagram.com/micknicklintock"><i class="fas fa-leaf"></i></a></div>
+          <div class="level-item has-text-centered"><a href="https://www.instagram.com/micknicklintock"><i class="fas fa-share-alt"></i></a></div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- mobile -->
+<nav class="navbar is-transparent has-text-centered mobile_nav is-hidden-desktop">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <img src="{{site.baseurl}}/assets/img/nmlogo.png" style="max-width:200px;">
+      </a>
+      <span class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+
+      <a href="/design.html" class="navbar-item">Design</a>
+      <a href="/motion.html" class="navbar-item">Motion</a>
+      <a href="/web.html" class="navbar-item">web</a>
+      <a href="/drawings.html" class="navbar-item">Drawings</a>
+
+      <a href="" class="navbar-item">Contact</a>
+      <a href="" class="navbar-item">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</nav>
+<script type="text/javascript">
+  (function(){
+    var burger = document.querySelector('.burger');
+    var nav = document.querySelector('#'+burger.dataset.target);
+
+    burger.addEventListener('click', function(){
+      burger.classList.toggle('is-active');
+      nav.classList.toggle('is-active');
+    });
+  })();
+</script>

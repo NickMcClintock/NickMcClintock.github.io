@@ -1,0 +1,11 @@
+<div class="project_img_gallery">
+  <div class="columns is-multiline is-tablet">
+      {% for image in page.images %}
+        <div class="column is-half-tablet">
+          <figure class="image">
+              <img src="{{image.image_path}}">
+          </figure>
+          </div>
+      {% endfor %}
+  </div>
+</div>

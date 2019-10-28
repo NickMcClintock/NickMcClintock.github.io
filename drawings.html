@@ -1,0 +1,10 @@
+---
+title: "DRAWINGS"
+layout: default
+permalink: /drawings.html
+---
+<div class="tile is-ancestor">
+    {% for post in site.categories['drawings'] %}
+    {% include post_thumb.html %}
+    {% endfor %}
+</div>
