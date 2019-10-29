@@ -23,12 +23,10 @@ images:
     title: Fist Bumpin' Bros
 color: "#5D5D42"
 ---
-okay
+
 
 <div class="project_text">
-Bacon ipsum dolor amet turducken ground round pork loin, meatloaf porchetta buffalo strip steak swine kielbasa brisket chuck chicken ball tip frankfurter bresaola. Ham short loin kevin, cupim turducken andouille alcatra bresaola tri-tip chuck jerky meatloaf leberkas chicken pork chop. Chicken shankle capicola sausage, ribeye kevin turkey bresaola andouille pork loin jowl pork belly turducken. Cupim ham hock venison ground round beef ribs pork chop.</div>
-<div class="project_text">
-Beef ribs flank swine sausage andouille doner ground round pork. Brisket biltong alcatra jowl. Kielbasa ball tip tenderloin cupim jowl. Pancetta beef chicken boudin bresaola beef ribs. Ham hock jerky salami cupim.
+
 </div>
 
 {% include img-galleryx4.html %}

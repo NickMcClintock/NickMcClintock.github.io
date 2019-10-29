@@ -17,7 +17,7 @@ categories: [motion]
 ---
 
 <div class="project_text">
-The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up two teams, a bunch of challenges, and gave them 12 hours to complete as many as they could. I worked with a team of 6 others to film this project, and edited the video and all the motion graphics.....
+The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up two teams, a bunch of challenges, and gave them 12 hours to complete as many as they could.
 </div>
 
 
@@ -30,9 +30,7 @@ The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up tw
 </div>
 
 <div class="project_text">
-Bacon ipsum dolor amet turducken ground round pork loin, meatloaf porchetta buffalo strip steak swine kielbasa brisket chuck chicken ball tip frankfurter bresaola. Ham short loin kevin, cupim turducken andouille alcatra bresaola tri-tip chuck jerky meatloaf leberkas chicken pork chop. Chicken shankle capicola sausage, ribeye kevin turkey bresaola andouille pork loin jowl pork belly turducken. Cupim ham hock venison ground round beef ribs pork chop.</div>
-<div class="project_text">
-Beef ribs flank swine sausage andouille doner ground round pork. Brisket biltong alcatra jowl. Kielbasa ball tip tenderloin cupim jowl. Pancetta beef chicken boudin bresaola beef ribs. Ham hock jerky salami cupim.
+
 </div>
 
 <div class="project_img_gallery" style="padding-top: 50px;">
