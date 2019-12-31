@@ -26,6 +26,7 @@ html, body, #app {
   position: fixed;
   height: 100%;
   color: #f9f9f9;
+  z-index: 1;
 }
 .sidebar_title a{
   color: inherit;
@@ -258,26 +259,27 @@ html, body, #app {
 }
 
 .project_fancy_gallery{
+
   padding: 50px;
   margin-top: 50px;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-width: 100vw;
-position: relative;
-left: 50%;
-right: 50%;
-margin-left: -50vw;
-margin-right: -50vw;
-  z-index: -1;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  /* z-index: -1; */
 }
 .project_end{
+  background-image: url('{{site.url}/assets/img/nmlogo_tiny.png');
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  height: 50px;
   width: 50px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thick;
-  border-radius: 5px;
+
 }

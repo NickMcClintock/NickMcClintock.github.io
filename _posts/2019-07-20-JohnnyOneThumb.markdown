@@ -2,7 +2,7 @@
 layout: post
 title:  "Johnny One Thumb Album"
 date:   2019-07-18 11:21:16 -0400
-categories: design
+categories: [design, drawings]
 img-url: /assets/img/JohnnyOneThumb_thumb.jpg
 ---
 <center>

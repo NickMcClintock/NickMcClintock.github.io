@@ -6,3 +6,5 @@ categories: [motion]
 img-url: /assets/img/bails_rotocope.gif
 color: "#0099ff"
 ---
+
+{% include common/projectend.html %}

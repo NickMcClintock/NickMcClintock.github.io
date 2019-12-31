@@ -30,7 +30,7 @@ The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up tw
 </div>
 
 <div class="project_text">
-
+This would be some more text....
 </div>
 
 <div class="project_img_gallery" style="padding-top: 50px;">
@@ -54,4 +54,4 @@ The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up tw
 </figure>
 </div>
 
-<hr class="project_end">
+{% include common/projectend.html %}

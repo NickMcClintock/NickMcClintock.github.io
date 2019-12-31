@@ -7,7 +7,7 @@
       <div class="main_content"><!-- responsive padding fix :) -->
         <div class="project_header">
           <h1 class="title is-size-3">{{ page.title }}</h1>
-          <div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
+          <div class="date">{{ page.date | date: '%B, %Y' }}</div>
           <!-- {{ page.title }} -->
               {% if post %}
                 {% assign categories = post.categories %}
