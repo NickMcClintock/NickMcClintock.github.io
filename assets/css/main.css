@@ -275,11 +275,5 @@ html, body, #app {
   /* z-index: -1; */
 }
 .project_end{
-  background-image: url('{{site.url}/assets/img/nmlogo_tiny.png');
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 50px;
-
+ background: #292C34;
 }

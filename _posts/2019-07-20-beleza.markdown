@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Beleza CoolSculpting"
+date:   2019-07-20 11:21:16 -0400
+categories: motion
+img-url: /assets/img/beleza/beleza_thumb.gif
+---
