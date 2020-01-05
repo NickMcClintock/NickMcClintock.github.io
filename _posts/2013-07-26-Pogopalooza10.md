@@ -6,8 +6,7 @@ categories: [design, motion]
 img-url: /assets/img/pogopalooza10/Pogopalooza10_thumb.jpg
 color: '#2397c5'
 ---
-<div class="project_hero" style="background-image: url('/assets/img/pogopalooza10/Pogopalooza10_pano.jpg'); height:250px;">
-</div>
+<img class="center wider" src="/assets/img/pogopalooza10/Pogopalooza10_pano.jpg">
 
 <div class="container" style="width: 80%;">
   <div class="columns" >
@@ -47,7 +46,7 @@ color: '#2397c5'
 <div class="container" style="width: 80%; margin-bottom: 50px;">
   <div class="columns">
     <div class="column">
-      <img class="center" src="/assets/img/pogopalooza10/Pogopalooza10_russ.jpg" style="min-width: 200px; margin-bottom: 50px;">
+      <img class="center" src="/assets/img/pogopalooza10/Pogopalooza10_russkaus.jpg" style="min-width: 200px; margin-bottom: 50px;">
       <img class="center" src="/assets/img/pogopalooza10/Pogopalooza10_dmitry.jpg" style="min-width: 200px;">
     </div>
     <div class="column">
