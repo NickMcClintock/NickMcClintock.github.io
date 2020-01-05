@@ -15,22 +15,12 @@ images:
 color: '#502E79'
 categories: [motion]
 ---
-
-<div class="project_text">
-The <em>NYC Street Slam</em> was a media project for Xpogo in which we set up two teams, a bunch of challenges, and gave them 12 hours to complete as many as they could.
-</div>
-
-
 <div class="project_embed">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nw96UHwd3Cw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="project_fancy_gallery" style="background-image: url('/assets/img/nycstreetslam/nycstreetslam_mapgbg.jpg');">
 {% include img-galleryx2.html %}
-</div>
-
-<div class="project_text">
-This would be some more text....
 </div>
 
 <div class="project_img_gallery" style="padding-top: 50px;">

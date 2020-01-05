@@ -14,11 +14,36 @@ html, body, #app {
  padding-top: 20px;
  padding-bottom: 12px !important;
 }
+
+/* POST OBJECT STYLES */
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
+.column{
+  padding: 25px !important;
+}
+.medium{
+  width: 70%;
+  margin-bottom: 50px;
+}
+.wide{
+  width: 80%;
+  margin-bottom: 50px;
+}
+.wider{
+  width: 90%;
+  margin-bottom: 50px;
+}
+.border{
+  border: solid 50px #fff;
+  background:#fff;
+}
+
 /***************/
 /* MENU STYLES */
 /***************/
@@ -47,14 +72,21 @@ html, body, #app {
   display: block;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 4px;
 }
 .nav_links .menu-item{
   text-align: center;
+  margin-bottom: 10px;
 }
 .sidebar_nav_footer{
   width: 200px;
   position: absolute;
   bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: 3px;
 }
 .sidebar_nav_footer a{
   color: inherit;
@@ -227,12 +259,19 @@ html, body, #app {
   color: #939393;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
+  font-size: .8rem;
 }
 
 .project_text{
+  color: #000000;
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  letter-spacing: .05rem;
   display: block;
   max-width: 860px;
   padding-top: 50px;
+  padding-bottom: 50px;
   margin: auto;
 }
 .project_embed{
@@ -240,6 +279,7 @@ html, body, #app {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
@@ -259,7 +299,6 @@ html, body, #app {
 }
 
 .project_fancy_gallery{
-
   padding: 50px;
   margin-top: 50px;
   background-position: center;
@@ -276,4 +315,24 @@ html, body, #app {
 }
 .project_end{
  background: #292C34;
+}
+.project_hero{
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: -25px;
+}
+.project_label{
+  display: block;
+  color: #A4A4A4;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .15rem;
+  margin-bottom: 50px;
 }
