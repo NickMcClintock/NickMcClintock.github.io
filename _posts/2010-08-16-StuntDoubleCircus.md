@@ -11,7 +11,7 @@ img-url: /assets/img/stuntdoublecircus/StuntDoubleCircus_thumb.jpg
 
 <img src="/assets/img/stuntdoublecircus/StuntDoubleCircus_TeamLogo.jpg" class="center medium">
 
-<div class="container ">
+<div class="container" class="wider">
   <div class="columns">
     <div class="column">
       <img src="/assets/img/stuntdoublecircus/StuntDoubleCircus_Hat.jpg" class="center">
@@ -22,9 +22,13 @@ img-url: /assets/img/stuntdoublecircus/StuntDoubleCircus_thumb.jpg
   </div>
 </div>
 
+<img src="/assets/img/stuntdoublecircus/StuntDoubleCircus_web.png" class="center small">
+
 <div class="project_embed" style="margin-bottom: 50px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/avpuVyej34w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<img src="/assets/img/stuntdoublecircus/StuntDoubleCircus_Jumpsuit.jpg" class="center small">
 
 <div class="container" style="width: 70%; margin-bottom: 25px;">
   <div class="columns">
@@ -54,5 +58,7 @@ img-url: /assets/img/stuntdoublecircus/StuntDoubleCircus_thumb.jpg
 <div class="project_embed">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/YS2UlS-6Y_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<img src="/assets/img/stuntdoublecircus/StuntDoubleCircus_RussianBarDown.jpg" class="medium center">
 
 {% include common/projectend.html %}

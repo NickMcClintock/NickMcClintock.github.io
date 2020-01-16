@@ -24,17 +24,9 @@ images:
 color: "#5D5D42"
 ---
 
-
-<div class="project_text">
-a bunch of text
-</div>
-
 <div class="project_fancy_gallery" style="background-image: url('/assets/img/nesessions/ne-sessions-map-bg.jpg');">
-{% include img-galleryx4.html %}
+<img class="center" style="max-width: 350px; margin-bottom:25px;" src="/assets/img/nesessions/ne-sessions-badge-logo.png">
+<div class="small center">{% include img-galleryx4.html %}</div>
 </div>
 
-Spicy jalapeno bacon ipsum dolor amet bresaola strip steak landjaeger pancetta, tenderloin hamburger drumstick swine. Venison ball tip cupim doner pig. Fatback burgdoggen cow, filet mignon pancetta brisket tongue leberkas meatball sausage chuck venison chicken. Tri-tip frankfurter tongue pork chop, meatloaf kevin spare ribs bresaola. Venison buffalo short ribs turkey shoulder, kielbasa boudin cow alcatra rump spare ribs bacon swine ground round porchetta.
-
-Picanha tail pig burgdoggen landjaeger pork chop pork loin alcatra corned beef swine rump kielbasa. Alcatra meatball salami, short ribs pork chop turkey kevin flank tri-tip. Alcatra short ribs drumstick chuck salami. Tongue rump cow jowl, cupim burgdoggen pork chop pancetta beef. Buffalo jowl beef ham hock pig. Jowl pastrami sirloin tri-tip leberkas.
-
-Tail turducken sausage shoulder pork loin doner jerky, tri-tip shank pig pork belly. Beef rump pig ham tail capicola porchetta t-bone leberkas. Turkey kevin short ribs salami strip steak ham flank sirloin swine kielbasa leberkas meatloaf. Leberkas fatback prosciutto strip steak tongue pork belly landjaeger short ribs.
+{% include common/projectend.html %}

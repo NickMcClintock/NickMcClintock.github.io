@@ -7,6 +7,8 @@ img-url: /assets/img/pogopalooza8/Pogopalooza8_thumb.jpg
 color: '#F0911D'
 ---
 
+<img src="/assets/img/pogopalooza8/Pogopalooza8_logo.jpg" class="medium center">
+
 <div class="container wider border">
   <div class="columns">
     <div class="column">
@@ -22,9 +24,15 @@ color: '#F0911D'
 
 <img src="/assets/img/pogopalooza8/Pogopalooza8_shirts.png" style="max-width:500px;" class="center medium">
 
+<img src="/assets/img/pogopalooza8/Pogopalooza8_chadd.jpg" class="center medium border">
+
 <div class="project_embed">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3L6a_DiOEhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<img src="/assets/img/pogopalooza8/Pogopalooza8_backflips.gif" class="center small">
+
+<img src="/assets/img/pogopalooza8/Pogopalooza8_group.jpg" class="center medium border">
 
 <img src="/assets/img/pogopalooza8/Pogopalooza8_ryan.png" class="medium center">
 

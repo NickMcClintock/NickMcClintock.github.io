@@ -27,6 +27,13 @@ html, body, #app {
 .column{
   padding: 25px !important;
 }
+.smaller{
+  width: 33%;
+  margin-bottom: 50px;}
+.small{
+  width: 50%;
+  margin-bottom: 50px;
+}
 .medium{
   width: 70%;
   margin-bottom: 50px;
